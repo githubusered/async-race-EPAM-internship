@@ -1,0 +1,42 @@
+body {
+  background-image: url("https://avatars.mds.yandex.net/i?id=4adeb65d975c47725512a17f96d1c29f3b27f4b1-8474231-images-thumbs&n=13");
+}
+.garageContainer {
+  text-align: center;
+  margin: 50px auto;
+}
+.interactBtnsAndInputs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.createAndUpdate {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  column-gap: 15px;
+}
+.createForm,
+.updateForm{
+  display: flex;
+  column-gap: 10px;
+}
+.createForm .createFormInputs,
+.updateForm .updateFormInputs{
+  display: flex ;
+  justify-content: center;
+}
+
+
+
+.garageContainer .pagination {
+  display: flex;
+  column-gap: 10px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  color: white;
+}

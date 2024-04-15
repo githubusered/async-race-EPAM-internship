@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.winnersContainer h2 {
+  font-size: 50px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.winnerPropertiesTitles {
+  border-collapse: collapse;
+  width: 100%;
+}
+.winnerPropertiesTitles > thead {
+  border: 2px solid purple;
+  /* border-radius: 100px; */
+  color: white;
+  font-weight: bolder;
+}
+
+.titles th {
+  padding: 5px 0;
+}
+.winnerPropertiesTitles .properties {
+  color: white;
+}
+
+.properties td {
+  text-align: center;
+}
+
+.pagination{
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}

@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+
+body {
+  font-family: "Quicksand", sans-serif;
+}
+.btn {
+  background: none;
+  font-family: "Quicksand", sans-serif;
+  border: 2px solid #664eb3;
+  color: #664eb3;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+  text-decoration: none;
+}
+.btn.disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.btn:hover {
+  background: linear-gradient(45deg, #664eb3, #298acb);
+  filter: brightness(1.1);
+}

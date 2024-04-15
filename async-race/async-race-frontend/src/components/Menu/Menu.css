@@ -1,0 +1,15 @@
+.menu {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+}
+
+.menu .left {
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+  padding: 40px 0;
+}
+.menu .right {
+  padding: 0 200px 0 0;
+}

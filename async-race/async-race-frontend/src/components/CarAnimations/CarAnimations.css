@@ -1,0 +1,100 @@
+/* .race-track {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    overflow-x: auto;
+} */
+.carPath {
+  display: flex;
+  justify-content: left;
+  border: 1px dotted white;
+  align-items: center;
+  border-radius: 10px;
+  position: relative;
+
+}
+.carPath .SRSR {
+  display: flex;
+  justify-content: left;
+  gap: 4px;
+
+}
+.car {
+  border-radius: 5px;
+  padding: 10px 20px;
+  width: 100px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 15%;
+  animation: moveRight linear infinite;
+}
+.carList {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.carIcon {
+  font-size: 40px;
+}
+/* .race-track {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    overflow-x: auto;
+} */
+.carPath {
+  display: flex;
+  justify-content: left;
+  border: 1px dotted white;
+  align-items: center;
+  border-radius: 10px;
+  position: relative;
+
+}
+.carPath .SRSR {
+  display: flex;
+  justify-content: left;
+  gap: 4px;
+
+}
+.car {
+  border-radius: 5px;
+  padding: 10px 20px;
+  width: 100px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 15%;
+  /* animation: moveRight linear infinite; */
+}
+.carList {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.carIcon {
+  font-size: 40px;
+}
+
+.playAndResetBtns {
+  display: flex;
+  margin-bottom: 10px;
+  justify-content: left;
+  column-gap: 10px;
+}
+
+.playAndResetBtns .btn{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 5px;
+}
